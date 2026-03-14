@@ -1,0 +1,14 @@
+name: CODEX.md
+description: Configuration file for OpenAI Codex CLI providing project instructions,
+  coding conventions, and build commands for AI-assisted development.
+url: ''
+tags:
+- AI Agents
+- OpenAI Codex
+- Developer Workflow
+- Coding Standards
+- AI Copilot
+created: '2025'
+modified: '2025'
+apis: []
+common: []
