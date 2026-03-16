@@ -1,14 +1,25 @@
+aid: codex-md
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/codex-md/refs/heads/main/apis.yml
 name: CODEX.md
-description: Configuration file for OpenAI Codex CLI providing project instructions,
-  coding conventions, and build commands for AI-assisted development.
-url: ''
 tags:
-- AI Agents
-- OpenAI Codex
-- Developer Workflow
-- Coding Standards
-- AI Copilot
-created: '2025'
-modified: '2025'
+  - AI Agents
+  - OpenAI Codex
+  - Developer Workflow
+  - Coding Standards
+  - AI Copilot
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2025-01-01'
+modified: '2026-03-16'
+position: Consumer
+description: >-
+  Configuration file for OpenAI Codex CLI providing project instructions,
+  coding conventions, and build commands for AI-assisted development.
 apis: []
 common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+specificationVersion: '0.19'
