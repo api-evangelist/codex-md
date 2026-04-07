@@ -4,10 +4,10 @@ url: >-
 name: CODEX.md
 tags:
   - AI Agents
-  - OpenAI Codex
-  - Developer Workflow
-  - Coding Standards
   - AI Copilot
+  - Coding Standards
+  - Developer Workflow
+  - OpenAI Codex
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
