@@ -10,8 +10,7 @@ tags:
   - Developer Workflow
   - Memory
   - OpenAI Codex
-type: Standard
-x-type: standard
+kind: standard
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-01-01'
