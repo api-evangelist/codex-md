@@ -2,6 +2,7 @@ aid: codex-md
 url: >-
   https://raw.githubusercontent.com/api-evangelist/codex-md/refs/heads/main/apis.yml
 name: CODEX.md
+x-type: convention
 tags:
   - AI Agents
   - AI Copilot
@@ -37,7 +38,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codex-md.p
 access: 3rd-Party
 created: '2025-01-01'
 modified: '2026-04-26'
-position: Consumer
+position: Consuming
 description: >-
   CODEX.md is a project-level Markdown memory file that the OpenAI Codex CLI
   loads to bootstrap an AI coding agent with persistent project instructions,
