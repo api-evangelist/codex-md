@@ -1,4 +1,4 @@
-# CODEX.md (codex-md)
+# CODEX.md
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,58 +66,32 @@
 
 CODEX.md is a project-level Markdown memory file that the OpenAI Codex CLI loads to bootstrap an AI coding agent with persistent project instructions, coding conventions, build and test commands, and team conventions. The OpenAI Codex CLI now standardizes on AGENTS.md as the canonical filename, with CODEX.md and codex.md historically used and still recognized as fallback configuration filenames. Files are discovered through a three-tier hierarchy spanning the user's home directory, the Git repository root, and the current working directory, with closer files overriding earlier guidance when concatenated into the model prompt.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/codex-md/refs/heads/main/apis.yml)
+**Areas:** AI Agents · AI Copilot · Coding Standards · Configuration · Developer Workflow · Memory · OpenAI Codex
 
-## Scope
+## CODEX.md on APIs.io
 
-- **Type:** Standard
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for CODEX.md is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/codex-md/](https://apis.io/providers/codex-md/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+## Where to find this API
 
-- AI Agents
-- AI Copilot
-- Coding Standards
-- Configuration
-- Developer Workflow
-- Memory
-- OpenAI Codex
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Timestamps
-
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-26
-
-## Features
-
-- Markdown-based freeform instruction format with no mandated schema
-- Loaded automatically by Codex CLI before any task execution
-- Three-tier discovery (home directory, Git repo root, current directory)
-- Override file convention (AGENTS.override.md / CODEX.override.md)
-- Concatenated merge order with closer files taking precedence
-- Equivalent role to CLAUDE.md (Claude Code) and .cursorrules (Cursor)
-- Designed to encode build commands, test commands, lint rules, and conventions
-- Agentic memory primitive for persistent project context across CLI sessions
-
-## Use Cases
-
-- Pin a repository to specific package managers, formatters, and linters
-- Document non-obvious build, test, or migration commands for the agent
-- Establish project-wide coding standards (naming, error handling, imports)
-- Capture team norms (PR descriptions, commit style, branch naming)
-- Restrict the agent from touching protected files or directories
-- Bridge organizational knowledge into AI-assisted development sessions
-
-## Common Properties
-
-- [Specification](https://developers.openai.com/codex/guides/agents-md)
+- [Website](https://www.openai.com/)
 - [Documentation](https://developers.openai.com/codex/cli)
-- [GitHub](https://github.com/openai/codex)
-- [Landing Page](https://developers.openai.com/codex)
+- [Blog](https://openai.com/news/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+Not yet rated. See [apis.io/providers/codex-md/](https://apis.io/providers/codex-md/).
 
-**Email:** kin@apievangelist.com
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CODEX.md: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/codex-md/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
